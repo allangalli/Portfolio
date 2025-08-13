@@ -84,7 +84,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/allangalli",
   },
   intro: {
     display: true,
