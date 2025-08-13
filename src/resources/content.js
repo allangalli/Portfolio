@@ -117,7 +117,7 @@ const about = {
             height: 9,
           },
           {
-            src: "/images/projects/collisio/collisio-products-lineup.png",
+            src: "/images/projects/collisio/collisio-suite.png",
             alt: "Collisio Products Lineup",
             width: 16,
             height: 9,
