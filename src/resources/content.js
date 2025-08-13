@@ -6,11 +6,11 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "AI Product Manager | Senior Business Analyst",
+  role: "AI Product Manager",
   avatar: "/images/avatar.jpg",
   email: "allangalli15@gmail.com",
   location: "America/Toronto", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English","Tamil","Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -49,7 +49,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Driving digital transformation through AI and business analysis</>,
+  headline: <>Turning AI complexity into business clarity</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Collisio</strong></>,
@@ -57,8 +57,9 @@ const home = {
   },
   subline: (
     <>
-      I'm Allan, an AI Product Manager and Senior Business Analyst with 4+ years driving digital transformation across healthcare, finance, and technology sectors.
-      <br /> Currently pursuing Master of Management in AI (MMAI) and co-founding AI-powered solutions.
+      I'm Allan, a product manager who speaks both AI and business. 
+      <br /> <br />  Currently building the future of professional networking at 
+       while seeking my next AI product leadership role.
     </>
   ),
 };
@@ -85,8 +86,8 @@ const about = {
     description: (
       <>
         Allan is a Toronto-based AI Product Manager and Senior Business Analyst with a passion for transforming complex business challenges
-        into elegant digital solutions. His work spans AI product development, digital transformation, and the convergence of technology and business strategy.
-        With 4+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
+        into elegant digital solutions. <br /> <br />His work spans AI product development, digital transformation, and the convergence of technology and business strategy.
+        <br /> <br />With 4+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
       </>
     ),
   },
