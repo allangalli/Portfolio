@@ -59,6 +59,12 @@ const home = {
     <>
       I'm Allan, a product manager who speaks both AI and business. 
       <br /> <br />  Currently building the future of professional networking at 
+      <span style={{
+        fontSize: '1.0em',
+        color: '#ffffff',
+        textShadow: '0 0 1px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.2)',
+        filter: 'drop-shadow(0 0 1px rgba(255, 255, 255, 0.1))'
+      }}> Collisio </span> 
        while seeking my next AI product leadership role.
     </>
   ),
