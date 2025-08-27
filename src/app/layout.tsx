@@ -3,7 +3,6 @@ import '@once-ui-system/core/css/tokens.css';
 import '@/resources/custom.css'
 
 import classNames from "classnames";
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { Background, Column, Flex, Meta, opacity, SpacingToken } from "@once-ui-system/core";
 import { Footer, Header, RouteGuard, Providers } from '@/components';
@@ -142,7 +141,7 @@ export default async function RootLayout({
               color: effects.lines.color,
             }}
           />
-          <Flex fillWidth minHeight="16" hide={true}/>
+          <Flex fillWidth minHeight="16" hide="s"/>
             <Header />
             <Flex
               zIndex={0}
@@ -160,7 +159,6 @@ export default async function RootLayout({
             <Footer/>
           </Column>
         </Providers>
-        <SpeedInsights />
       </Flex>
   );
 }
