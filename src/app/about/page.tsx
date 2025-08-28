@@ -72,7 +72,7 @@ export default function About() {
           position="fixed"
           paddingLeft="24"
           gap="32"
-          className="s-hide"
+          hide="s"
         >
           <TableOfContents structure={structure} about={about} />
         </Column>
@@ -193,7 +193,7 @@ export default function About() {
               <Column fillWidth gap="l" marginBottom="40">
                 {about.work.experiences.map((experience, index) => (
                   <Column key={`${experience.company}-${experience.role}-${index}`} fillWidth>
-                    <Flex fillWidth horizontal="between" vertical="end" marginBottom="4">
+                    <Flex fillWidth horizontal="space-between" vertical="end" marginBottom="4">
                       <Text id={experience.company} variant="heading-strong-l">
                         {experience.company}
                       </Text>
