@@ -44,7 +44,7 @@ const social = [
   },
   {
     name: "Resume",
-    icon: "download",
+    icon: "document",
     link: person.resume,
   },
 ];

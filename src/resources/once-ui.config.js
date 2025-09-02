@@ -173,7 +173,7 @@ const mailchimp = {
 
 // default schema data
 const schema = {
-  logo: "",
+  logo: "public/icon.png",
   type: "Organization",
   name: "Allan Galli",
   description: home.description,
