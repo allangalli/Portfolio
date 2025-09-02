@@ -110,6 +110,7 @@ export default async function RootLayout({
         <Column as="body" background="page" fillWidth style={{minHeight: "100vh"}} margin="0" padding="0" horizontal="center">
           <Background
             position="fixed"
+            suppressHydrationWarning={true}
             mask={{
               x: effects.mask.x,
               y: effects.mask.y,
