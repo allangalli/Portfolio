@@ -181,7 +181,7 @@ const about = {
         ],
         images: [
           {
-            src: "/images/projects/hotswappii/hotswappii-dashboard.png",
+            src: "/images/projects/hotswappii/hotswappii-dashboard.jpeg",
             alt: "HotSwapPII Product Dashboard",
             width: 16,
             height: 9,
