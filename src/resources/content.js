@@ -11,6 +11,7 @@ const person = {
   email: "allangalli15@gmail.com",
   location: "America/Toronto", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English","Tamil","Hindi"], // optional: Leave the array empty if you don't want to display languages
+  resume: "/resume.pdf", // Path to resume file in public directory
 };
 
 const newsletter = {
@@ -41,6 +42,11 @@ const social = [
     icon: "email",
     link: `mailto:${person.email}`,
   },
+  {
+    name: "Resume",
+    icon: "download",
+    link: person.resume,
+  },
 ];
 
 const home = {
@@ -61,9 +67,9 @@ const home = {
       <br /> <br />  Currently building the future of professional networking at 
       <span style={{
         fontSize: '1.0em',
-        color: '#ffffff',
-        textShadow: '0 0 1px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.2)',
-        filter: 'drop-shadow(0 0 1px rgba(255, 255, 255, 0.1))'
+        color: 'var(--neutral-on-background-strong)',
+        textShadow: '0 0 1px var(--neutral-alpha-strong), 0 0 10px var(--neutral-alpha-weak)',
+        filter: 'drop-shadow(0 0 1px var(--neutral-alpha-medium))'
       }}> Collisio </span> 
        while seeking my next AI product leadership role.
     </>
