@@ -12,13 +12,15 @@
     position: sticky;
     height: fit-content;
     top: 25%;
-    transform: translateY(10%);
+    transform: translateY(20%);
 }
 
 @media (max-width: breakpoints.$s) {
     .avatar {
+        position: static !important;
         top: auto;
         transform: none;
+        margin-bottom: var(--static-space-xl);
     }
 
     .textAlign {
