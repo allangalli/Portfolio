@@ -7,4 +7,6 @@ export { RouteGuard } from "@/components/RouteGuard";
 export { Providers } from "@/components/Providers";
 export { ScrollToHash } from "@/components/ScrollToHash";
 export { ThemeToggle } from "@/components/ThemeToggle";
+export { LenisProvider } from "@/components/LenisProvider";
+export { CustomScrollToTop } from "@/components/CustomScrollToTop";
 export { CustomMDX } from "@/components/mdx";
