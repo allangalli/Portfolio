@@ -80,70 +80,78 @@ export const Header = () => {
               <Line background="neutral-alpha-medium" vert maxHeight="24" />
               {routes["/about"] && (
                 <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="person"
-                    href="/about"
-                    label={about.label}
-                    selected={pathname === "/about"}
-                  />
-                  <ToggleButton
-                    className="s-flex-show"
-                    prefixIcon="person"
-                    href="/about"
-                    selected={pathname === "/about"}
-                  />
+                  <Flex s={{hide: true}}>
+                    <ToggleButton
+                      prefixIcon="person"
+                      href="/about"
+                      label={about.label}
+                      selected={pathname === "/about"}
+                    />
+                  </Flex>
+                  <Flex s={{show: true}}>
+                    <ToggleButton
+                      prefixIcon="person"
+                      href="/about"
+                      selected={pathname === "/about"}
+                    />
+                  </Flex>
                 </>
               )}
               {routes["/work"] && (
                 <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="grid"
-                    href="/work"
-                    label={work.label}
-                    selected={pathname.startsWith("/work")}
-                  />
-                  <ToggleButton
-                    className="s-flex-show"
-                    prefixIcon="grid"
-                    href="/work"
-                    selected={pathname.startsWith("/work")}
-                  />
+                  <Flex s={{hide: true}}>
+                    <ToggleButton
+                      prefixIcon="grid"
+                      href="/work"
+                      label={work.label}
+                      selected={pathname.startsWith("/work")}
+                    />
+                  </Flex>
+                  <Flex s={{show: true}}>
+                    <ToggleButton
+                      prefixIcon="grid"
+                      href="/work"
+                      selected={pathname.startsWith("/work")}
+                    />
+                  </Flex>
                 </>
               )}
               {routes["/blog"] && (
                 <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="book"
-                    href="/blog"
-                    label={blog.label}
-                    selected={pathname.startsWith("/blog")}
-                  />
-                  <ToggleButton
-                    className="s-flex-show"
-                    prefixIcon="book"
-                    href="/blog"
-                    selected={pathname.startsWith("/blog")}
-                  />
+                  <Flex s={{hide: true}}>
+                    <ToggleButton
+                      prefixIcon="book"
+                      href="/blog"
+                      label={blog.label}
+                      selected={pathname.startsWith("/blog")}
+                    />
+                  </Flex>
+                  <Flex s={{show: true}}>
+                    <ToggleButton
+                      prefixIcon="book"
+                      href="/blog"
+                      selected={pathname.startsWith("/blog")}
+                    />
+                  </Flex>
                 </>
               )}
               {routes["/gallery"] && (
                 <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="gallery"
-                    href="/gallery"
-                    label={gallery.label}
-                    selected={pathname.startsWith("/gallery")}
-                  />
-                  <ToggleButton
-                    className="s-flex-show"
-                    prefixIcon="gallery"
-                    href="/gallery"
-                    selected={pathname.startsWith("/gallery")}
-                  />
+                  <Flex s={{hide: true}}>
+                    <ToggleButton
+                      prefixIcon="gallery"
+                      href="/gallery"
+                      label={gallery.label}
+                      selected={pathname.startsWith("/gallery")}
+                    />
+                  </Flex>
+                  <Flex s={{show: true}}>
+                    <ToggleButton
+                      prefixIcon="gallery"
+                      href="/gallery"
+                      selected={pathname.startsWith("/gallery")}
+                    />
+                  </Flex>
                 </>
               )}
               {display.themeSwitcher && (

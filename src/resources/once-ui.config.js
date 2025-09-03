@@ -175,7 +175,7 @@ const mailchimp = {
 const schema = {
   logo: "public/icon.png",
   type: "Organization",
-  name: "Allan Galli",
+  name: "Allan Galli Francis",
   description: home.description,
   email: "allangalli15@gmail.com",
 };
