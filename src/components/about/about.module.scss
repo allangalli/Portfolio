@@ -11,12 +11,14 @@
 .avatar {
     position: sticky;
     height: fit-content;
-    top: var(--static-space-64);
+    top: 35%;
+    transform: translateY(-50%);
 }
 
 @media (max-width: breakpoints.$s) {
     .avatar {
         top: auto;
+        transform: none;
     }
 
     .textAlign {
