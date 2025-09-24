@@ -97,7 +97,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Allan is a Toronto-based AI Product Manager and Senior Business Analyst with a passion for transforming complex business challenges
+        Allan is Chicago-based AI Product Manager and Senior Business Analyst with a passion for transforming complex business challenges
         into elegant digital solutions. <br /> <br />His work spans AI product development, digital transformation, and the convergence of technology and business strategy.
         <br /> <br />With 4+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
       </>
@@ -108,9 +108,30 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
+        company: "York University",
+        timeframe: "July 2025 - Present",
+        role: "Digital Consultant",
+        achievements: [
+          <>
+            As sole technical lead, bootstrapped YouthAre platform from 0-1 in 3 months, delivering 5+ critical features while driving non-technical stakeholder engagement, collaboration, and buy-in. 
+          </>,
+          <>
+            Orchestrated digital-first youth engagement program, leading 2 intensive workshops with 24 participants and facilitating adoption of modern web-based collaboration tools.
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/youthare/youthare-site-hero-view.jpeg",
+            alt: "YouthAre Platform Landing Page View",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
         company: "Collisio",
-        timeframe: "Jan 2025 - Present",
-        role: "Co-Founder & Product Lead",
+        timeframe: "May 2025 - Present",
+        role: "Founder & Product Lead",
         achievements: [
           <>
             Led product & GTM strategy for AI-powered networking platform, securing $50K+ early-stage funding
