@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "AI Product Manager",
+  role: "AI Product Manager & Anlytics Engineer",
   avatar: "/images/avatar.jpg",
   email: "allangalli15@gmail.com",
   location: "America/Toronto", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -64,7 +64,7 @@ const home = {
   subline: (
     <>
       I'm Allan, a product manager who speaks both AI and business. 
-      <br /> <br />  Currently building the future of professional networking at 
+      <br /> <br />  Currently a Digital Site Consultant @YorkU and building the future of professional networking at 
       <span style={{
         fontSize: '1.0em',
         color: 'var(--neutral-on-background-strong)',
@@ -97,8 +97,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Allan is Chicago-based AI Product Manager and Senior Business Analyst with a passion for transforming complex business challenges
-        into elegant digital solutions. <br /> <br />His work spans AI product development, digital transformation, and the convergence of technology and business strategy.
+        Allan is Chicago-based AI Product Manager and Analytics Consultant with a passion for transforming complex business challenges
+        into elegant digital solutions. <br /> <br />His work spans AI product development, digital analytics, and the convergence of technology and business strategy.
         <br /> <br />With 4+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
       </>
     ),
@@ -113,10 +113,10 @@ const about = {
         role: "Digital Consultant",
         achievements: [
           <>
-            As sole technical lead, bootstrapped YouthAre platform from 0-1 in 3 months, delivering 5+ critical features while driving non-technical stakeholder engagement, collaboration, and buy-in. 
+            Bootstrapped a modern WordPress-based YouthAre platform with a focus on site analytics and UX, delivering 5+ critical features, optimizing page load times by 20% and enhancing Google indexing.
           </>,
           <>
-            Orchestrated digital-first youth engagement program, leading 2 intensive workshops with 24 participants and facilitating adoption of modern web-based collaboration tools.
+            Organized a digital-first youth engagement program, leading 2 intensive workshops with 24 participants and facilitating adoption of modern web-based collaboration tools contributing to 2x engagement.
           </>,
         ],
         images: [
@@ -137,7 +137,7 @@ const about = {
             Led product & GTM strategy for AI-powered networking platform, securing $50K+ early-stage funding
           </>,
           <>
-            Drove needs validation campaign via surveys and interviews targeting 300+ event organizers, achieving 80% support
+            Drove needs validation analytics campaign via surveys and interviews targeting 300+ event organizers, achieving 80% support
           </>,
           <>
             Defined market fit, product requirements, and implementation roadmap for intelligent matching features
