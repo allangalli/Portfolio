@@ -12,6 +12,8 @@ export const Footer = () => {
       padding="8"
       horizontal="center"
       s={{direction: "column"}}
+      zIndex={10}
+      position="relative"
     >
       <Flex
         className={styles.mobile}
@@ -40,6 +42,8 @@ export const Footer = () => {
                   tooltip={item.name}
                   size="s"
                   variant="ghost"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 />
               ),
           )}
