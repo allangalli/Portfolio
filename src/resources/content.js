@@ -113,7 +113,7 @@ const about = {
         role: "Digital Site Consultant",
         achievements: [
           <>
-            Bootstrapped a modern WordPress-based YouthAre platform with a focus on site analytics and UX, delivering 5+ critical features, optimizing page load times by 20% and enhancing Google indexing.
+            Bootstrapped a modern WordPress-based YouthAre platform with a focus on site analytics and UX, delivering 5+ critical features, optimizing page load times by 20%, and enhancing Google indexing.
           </>,
           <>
             Organized a digital-first youth engagement program, leading 2 intensive workshops with 24 participants and facilitating adoption of modern web-based collaboration tools contributing to 2x engagement.
@@ -134,13 +134,13 @@ const about = {
         role: "Founder & Product Lead",
         achievements: [
           <>
-            Led product & GTM strategy for AI-powered networking platform, securing $50K+ early-stage funding
+            Led product and GTM strategy for AI-powered networking platform, securing $50K+ early-stage funding.
           </>,
           <>
-            Drove needs validation analytics campaign via surveys and interviews targeting 300+ event organizers, achieving 80% support
+            Drove needs validation analytics campaign via surveys and interviews targeting 300+ event organizers, achieving 80% support.
           </>,
           <>
-            Defined market fit, product requirements, and implementation roadmap for intelligent matching features
+            Defined market fit, product requirements, and implementation roadmap for intelligent matching features.
           </>,
         ],
         images: [
@@ -164,16 +164,16 @@ const about = {
         role: "Senior Business Analyst",
         achievements: [
           <>
-            Led requirements gathering, configuration, and UAT for the eREMS rsearch management system, collaborating with 25+ SMEs to map 30+ workflows
+            Led requirements gathering, configuration, and UAT for the eREMS research management system, collaborating with 25+ SMEs to map 30+ workflows.
           </>,
           <>
-            Managed testing/data migration strategy executing 950+ functional tests and migrating 200K+ records using Azure DevOps
+            Managed testing/data migration strategy, executing 950+ functional tests and migrating 200K+ records using Azure DevOps.
           </>,
           <>
-            Directed market scans and testing of 40+ devices from 34 vendors for diagnostic automation, achieving 80% pilot satisfaction
+            Directed market scans and testing of 40+ devices from 34 vendors for diagnostic automation, achieving 80% pilot satisfaction.
           </>,
           <>
-            Facilitating readiness assessment for MS Copilot AI rollout to 120 staff, focusing on adoption strategy and data privacy
+            Facilitated readiness assessment for MS Copilot AI rollout to 120 staff, focusing on adoption strategy and data privacy.
           </>,
         ],
         images: [
@@ -203,13 +203,13 @@ const about = {
         role: "AI Product Manager",
         achievements: [
           <>
-            Architected 'HotSwapPII' evaluation platform for PII detection models, benchmarking 6+ NLP models on 1,300 documents
+            Architected HotSwapPII evaluation platform for PII detection models, benchmarking 6+ NLP models on 1,300 documents.
           </>,
           <>
-            Designed complete product lifecycle achieving &gt;80% recall and reducing model evaluation cycles by ~30%
+            Designed complete product lifecycle, achieving &gt;80% recall and reducing model evaluation cycles by ~30%.
           </>,
           <>
-            Built comprehensive testing framework using Microsoft Presidio, SpaCy, and Transformers
+            Built comprehensive testing framework using Microsoft Presidio, SpaCy, and Transformers.
           </>,
         ],
         images: [
@@ -233,13 +233,13 @@ const about = {
         role: "Solutions Analyst, I&T Finance",
         achievements: [
           <>
-            Streamlined data ETL pipelines using Python, SQL, and VBA to cut reporting timelines by 80%
+            Streamlined data ETL pipelines using Python, SQL, and VBA to cut reporting timelines by 80%.
           </>,
           <>
-            Built internal process literacy platform achieving 75% adoption rate, recognized by CFO
+            Built internal process literacy platform achieving 75% adoption rate, recognized by CFO.
           </>,
           <>
-            Implemented learning platform with 200+ training videos for Finance Division
+            Implemented learning platform with 200+ training videos for Finance Division.
           </>,
         ],
         images: [],
@@ -255,7 +255,7 @@ const about = {
         description: <>Master of Management in Artificial Intelligence (MMAI) | GPA: 3.9/4.0 (Distinction) | May 2024 – Apr 2025</>,
       },
       {
-        name: "University of Waterloo",
+        name: "School of Public Health Sciences, University of Waterloo",
         description: <>Bachelor of Science, Health Studies (Co-op) | Specialization: Health Informatics | GPA: 3.7/4.0 | Sep 2018 – Apr 2023</>,
       },
     ],
