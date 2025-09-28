@@ -9,7 +9,7 @@ const person = {
   role: "AI Product Manager & Analytics Engineer",
   avatar: "/images/avatar.jpg",
   email: "allangalli15@gmail.com",
-  location: "America/Toronto", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English","Tamil","Hindi"], // optional: Leave the array empty if you don't want to display languages
   resume: "/resume.pdf", // Path to resume file in public directory
 };
@@ -97,7 +97,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Allan is Chicago-based AI Product Manager and Analytics Consultant with a passion for transforming complex business challenges
+        Allan is a Chicago-based Digital Site Consultant and aspiring Product Manager with a passion for transforming complex business challenges
         into elegant digital solutions. <br /> <br />His work spans AI product development, digital analytics, and the convergence of technology and business strategy.
         <br /> <br />With 4+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
       </>
