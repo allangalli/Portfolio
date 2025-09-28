@@ -262,7 +262,7 @@ const about = {
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Technical Skills",
     skills: [
       {
         title: "AI/ML Development",
