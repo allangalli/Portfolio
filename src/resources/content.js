@@ -110,7 +110,7 @@ const about = {
       {
         company: "York University",
         timeframe: "July 2025 - Present",
-        role: "Digital Consultant",
+        role: "Digital Site Consultant",
         achievements: [
           <>
             Bootstrapped a modern WordPress-based YouthAre platform with a focus on site analytics and UX, delivering 5+ critical features, optimizing page load times by 20% and enhancing Google indexing.
@@ -164,7 +164,7 @@ const about = {
         role: "Senior Business Analyst",
         achievements: [
           <>
-            Led requirements gathering, configuration, and UAT for new ERP system, collaborating with 25+ SMEs to map 30+ workflows
+            Led requirements gathering, configuration, and UAT for the eREMS rsearch management system, collaborating with 25+ SMEs to map 30+ workflows
           </>,
           <>
             Managed testing/data migration strategy executing 950+ functional tests and migrating 200K+ records using Azure DevOps
@@ -177,6 +177,12 @@ const about = {
           </>,
         ],
         images: [
+          {
+            src: "/images/projects/thp/thp-eREMS-product-demo.mp4",
+            alt: "THP eREMS - Cloud based research management system",
+            width: 16,
+            height: 9,
+          },
           {
             src: "/images/projects/thp/thp-pod-clinic.jpeg",
             alt: "THP Pod Business Analyst Pod Clinic Front Picture",
