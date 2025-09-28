@@ -109,7 +109,7 @@ const about = {
     experiences: [
       {
         company: "York University",
-        timeframe: "July 2025 - Present",
+        timeframe: "Jul 2025 - Present",
         role: "Digital Site Consultant",
         achievements: [
           <>
@@ -199,7 +199,7 @@ const about = {
       },
       {
         company: "RBC Borealis",
-        timeframe: "Sept 2024 - Apr 2025",
+        timeframe: "Sep 2024 - Apr 2025",
         role: "AI Product Manager",
         achievements: [
           <>
