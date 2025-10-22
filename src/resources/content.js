@@ -97,9 +97,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Allan is a Chicago-based Digital Site Consultant and aspiring Product Manager with a passion for transforming complex business challenges
-        into elegant digital solutions. <br /> <br />His work spans AI product development, digital analytics, and the convergence of technology and business strategy.
-        <br /> <br />With 4+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
+        Allan is a Chicago-based Project Manager and aspiring Product Leader with a passion for transforming complex business challenges
+        into elegant & thoughtful digital solutions. <br /> <br />His work spans AI product design, digital analytics, and the convergence of technology and business strategy.
+        <br /> <br />With 3+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
       </>
     ),
   },
@@ -109,14 +109,11 @@ const about = {
     experiences: [
       {
         company: "York University",
-        timeframe: "Jul 2025 - Present",
-        role: "Digital Site Consultant",
+        timeframe: "Aug 2025 - Present",
+        role: "Technical Product Consultant",
         achievements: [
           <>
             Bootstrapped a modern WordPress-based YouthAre platform with a focus on site analytics and UX, delivering 5+ critical features, optimizing page load times by 20%, and enhancing Google indexing.
-          </>,
-          <>
-            Organized a digital-first youth engagement program, leading 2 intensive workshops with 24 participants and facilitating adoption of modern web-based collaboration tools contributing to 2x engagement.
           </>,
         ],
         images: [
@@ -134,13 +131,10 @@ const about = {
         role: "Founder & Product Lead",
         achievements: [
           <>
-            Led product and GTM strategy for AI-powered networking platform, securing $50K+ early-stage funding.
+            Led product and go-to-market strategy for Collisio, an AI-powered super-connector for in-person events, by clearly defining the problem/market fit, product features, and implementation; secured $50k+ early-stage funding.
           </>,
           <>
-            Drove needs validation analytics campaign via surveys and interviews targeting 300+ event organizers, achieving 80% support.
-          </>,
-          <>
-            Defined market fit, product requirements, and implementation roadmap for intelligent matching features.
+            Drove a needs validation campaign via surveys and interviews targeting 300+ event organizers, resulting in 80% support for the product and qualitative metrics to facilitate feature and go-to-market efforts.
           </>,
         ],
         images: [
@@ -164,16 +158,16 @@ const about = {
         role: "Senior Business Analyst",
         achievements: [
           <>
-            Led requirements gathering, configuration, and UAT for the eREMS research management system, collaborating with 25+ SMEs to map 30+ workflows.
+            Drove product design and pilot launch of the HealthPod, targeting the 50% of Ontarians experiencing specialist backlogs; connected patients to live biometric-enabled virtual care through Canada’s first “doctor-in-a-box”
           </>,
           <>
-            Managed testing/data migration strategy, executing 950+ functional tests and migrating 200K+ records using Azure DevOps.
+            Spearheaded market research, feature prioritization, and AODA/PHIPA compliance to support the launch and alleviate ER backlogs by rerouting up to 60% of non-urgent encounters to virtual care.
           </>,
           <>
-            Directed market scans and testing of 40+ devices from 34 vendors for diagnostic automation, achieving 80% pilot satisfaction.
+            Led requirements gathering and design mapping for eREMS, Ontario’s first enterprise research management system; managed 25+ SMEs/leaders to define 30+ workflows and break down process silos across teams.
           </>,
           <>
-            Facilitated readiness assessment for MS Copilot AI rollout to 120 staff, focusing on adoption strategy and data privacy.
+            Managed evaluation and data migration strategy, including the execution of UAT sessions and 950+ functional/remediation tests (98% pass rate), as well as migration of 200k+ legacy records using Azure DevOps.
           </>,
         ],
         images: [
@@ -230,16 +224,13 @@ const about = {
       {
         company: "Royal Bank of Canada",
         timeframe: "Jan 2022 - Aug 2022",
-        role: "Solutions Analyst, I&T Finance",
+        role: "Product Analyst, I&T Finance",
         achievements: [
           <>
-            Streamlined data ETL pipelines using Python, SQL, and VBA to cut reporting timelines by 80%.
+            Secured leadership buy-in, facilitated user interviews, and defined requirements to build an internal process literacy platform and change management strategy; achieved a 75% adoption rate and recognition by RBCs CFO.
           </>,
           <>
-            Built internal process literacy platform achieving 75% adoption rate, recognized by CFO.
-          </>,
-          <>
-            Implemented learning platform with 200+ training videos for Finance Division.
+            Streamlined data ETL pipelines using Python, SQL, and VBA Macros to cut BI developers’ monthly reporting timelines by 80%, strengthening time-sensitive decisions.
           </>,
         ],
         images: [],
@@ -276,7 +267,7 @@ const about = {
       },
       {
         title: "Data Analytics & Cloud",
-        description: <>Proficient in Python, SQL, Power BI, Tableau, and cloud platforms (AWS Solutions Architect certified, Azure AI Fundamentals certified).</>,
+        description: <>Proficient in Python, SQL, Power BI, Tableau, and cloud platforms (GCP AI Leader certified, Azure AI Fundamentals certified).</>,
         images: [],
       },
       {
