@@ -64,7 +64,7 @@ const home = {
   subline: (
     <>
       I'm Allan, a product manager who speaks both AI and business. 
-      <br /> <br />  Currently a Digital Site Consultant @YorkU and building the future of professional networking at 
+      <br /> <br />  Currently a Technical Product Consultant @YorkU and building the future of in-person networking at 
       <span style={{
         fontSize: '1.0em',
         color: 'var(--neutral-on-background-strong)',
