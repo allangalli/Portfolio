@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "AI Product Manager & Analytics Engineer",
+  role: "Business Systems Analyst and AI/ML Analytics Consultant",
   avatar: "/images/avatar.jpg",
   email: "allangalli15@gmail.com",
   location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -64,7 +64,7 @@ const home = {
   subline: (
     <>
       I'm Allan, a product manager who speaks both AI and business. 
-      <br /> <br />  Currently a Technical Product Consultant @YorkU and building the future of in-person networking at 
+      <br /> <br />  Currently a Business Analytics Consultant @HS Advisory and building the future of in-person networking at 
       <span style={{
         fontSize: '1.0em',
         color: 'var(--neutral-on-background-strong)',
@@ -107,6 +107,20 @@ const about = {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
+      {
+        company: "HS Advisory Inc.",
+        timeframe: "Sep 2025 - Present",
+        role: "Business Analytics Consultant",
+        achievements: [
+          <>
+            Extracted and modeled 4.8M customer records to identify behavioral patterns via ML models and deliver insights via Power BI dashboards. Analysis informed £267M portfolio strategy.
+          </>,
+          <>
+            Built ML powered customer segmentation pipeline for luxury jewelry retailer analyzing 9,000 client records across 6 behavioral dimensions using PySpark and Databricks.
+          </>,
+        ],
+        images: [],
+      },
       {
         company: "York University",
         timeframe: "Aug 2025 - Present",
@@ -154,7 +168,7 @@ const about = {
       },
       {
         company: "Institute for Better Health, Trillium Health Partners",
-        timeframe: "Jan 2024 - May 2025",
+        timeframe: "Jan 2024 - Jun 2025",
         role: "Senior Business Analyst",
         achievements: [
           <>
@@ -193,8 +207,8 @@ const about = {
       },
       {
         company: "RBC Borealis",
-        timeframe: "Sep 2024 - Apr 2025",
-        role: "AI Product Manager",
+        timeframe: "Sep 2023 - Dec 2023",
+        role: "ML Systems Analyst",
         achievements: [
           <>
             Architected HotSwapPII evaluation platform for PII detection models, benchmarking 6+ NLP models on 1,300 documents.
@@ -223,14 +237,31 @@ const about = {
       },
       {
         company: "Royal Bank of Canada",
-        timeframe: "Jan 2022 - Aug 2022",
-        role: "Product Analyst, I&T Finance",
+        timeframe: "Jan 2023 - Aug 2023",
+        role: "Business Systems Analyst, I&T Finance",
         achievements: [
           <>
             Secured leadership buy-in, facilitated user interviews, and defined requirements to build an internal process literacy platform and change management strategy; achieved a 75% adoption rate and recognition by RBCs CFO.
           </>,
           <>
             Streamlined data ETL pipelines using Python, SQL, and VBA Macros to cut BI developers’ monthly reporting timelines by 80%, strengthening time-sensitive decisions.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Trillium Health Partners",
+        timeframe: "Jan 2021 - Dec 2021",
+        role: "Lead Health Systems Analyst",
+        achievements: [
+          <>
+            Led 5-person cross-functional team to gather requirements and develop a training enrollment system for 10,000+ healthcare staff. Achieved 90%+ completion rate, driving successful EPIC software adoption across 3 hospitals.
+          </>,
+          <>
+            Deployed automated data consolidation process using Excel VBA and SQL, standardizing data elements across systems. Reduced LMS registration lead time by 75%, saving 2,000+ FTE hours.
+          </>,
+          <>
+            Authored technical specifications bridging clinical workflows with Epic software reporting requirements and HL7/FHIR data standards.
           </>,
         ],
         images: [],
