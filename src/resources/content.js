@@ -71,7 +71,7 @@ const home = {
         textShadow: '0 0 1px var(--neutral-alpha-strong), 0 0 10px var(--neutral-alpha-weak)',
         filter: 'drop-shadow(0 0 1px var(--neutral-alpha-medium))'
       }}> Collisio </span> 
-       while seeking my next AI product leadership role.
+       while seeking my next AI or Business Analytics role.
     </>
   ),
 };
