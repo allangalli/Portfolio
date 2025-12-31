@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Allan, a product manager who speaks both AI and business. 
+      I'm Allan, a Business Systems Analyst who speaks both AI and business. 
       <br /> <br />  Currently a Business Analytics Consultant @HS Advisory and building the future of in-person networking at 
       <span style={{
         fontSize: '1.0em',
@@ -97,7 +97,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Allan is a Chicago-based Project Manager and aspiring Product Leader with a passion for transforming complex business challenges
+        Allan is a Chicago-based Computer Systems and Business Analytics professional with a passion for transforming complex business challenges
         into elegant & thoughtful digital solutions. <br /> <br />His work spans AI product design, digital analytics, and the convergence of technology and business strategy.
         <br /> <br />With 3+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
       </>
@@ -274,11 +274,11 @@ const about = {
     institutions: [
       {
         name: "Schulich School of Business, York University",
-        description: <>Master of Management in Artificial Intelligence (MMAI) | GPA: 3.9/4.0 (Distinction) | May 2024 – Apr 2025</>,
+        description: <>Master of Management in Artificial Intelligence (MMAI) | GPA: 3.9/4.0 (Distinction) | 2x Hackathon Winner | May 2024 – Apr 2025</>,
       },
       {
         name: "School of Public Health Sciences, University of Waterloo",
-        description: <>Bachelor of Science, Health Studies (Co-op) | Specialization: Health Informatics | GPA: 3.7/4.0 | Sep 2018 – Apr 2023</>,
+        description: <>Bachelor of Science, Health Studies (Co-op) | Health Informatics | Co-op Student of Year Nominee | Dean's Honour List | Sep 2018 – Apr 2023</>,
       },
     ],
   },
