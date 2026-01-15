@@ -113,10 +113,13 @@ const about = {
         role: "Business Analytics Consultant",
         achievements: [
           <>
-            Extracted and modeled 4.8M customer records to identify behavioral patterns via ML models and deliver insights via Power BI dashboards. Analysis informed £267M portfolio strategy.
+            Engineered a customer segmentation platform processing 4.8M CRM records. Insights informed £267M portfolio strategy and doubled profitability via personalized marketing activation.
           </>,
           <>
-            Built ML powered customer segmentation pipeline for luxury jewelry retailer analyzing 9,000 client records across 6 behavioral dimensions using PySpark and Databricks.
+            Built master customer analytics pipeline for luxury jewelry client using Python and REST APIs with DMP enrichment via Experian Mosaic. Delivered audience segmentation dashboards identifying cross-sell pathways driving 3x LTV growth.
+          </>,
+          <>
+            Developed an AI prospecting tool using Gemini and Perplexity APIs with identity resolution and CRM enrichment. Aimed at reducing manual research time by 70% for sales activation.
           </>,
         ],
         images: [],
