@@ -209,7 +209,7 @@ const about = {
         ],
       },
       {
-        company: "RBC Borealis",
+        company: "Royal Bank of Canada",
         timeframe: "Sep 2023 - Dec 2023",
         role: "AI Consultant, Financial Data & Trust",
         achievements: [
