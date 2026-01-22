@@ -6,10 +6,10 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Business Systems Analyst and AI/ML Analytics Consultant",
+  role: "AI & Analytics Consultant",
   avatar: "/images/avatar.jpg",
   email: "allangalli15@gmail.com",
-  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "America/Toronto", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English","Tamil","Hindi"], // optional: Leave the array empty if you don't want to display languages
   resume: "/resume.pdf", // Path to resume file in public directory
 };
@@ -63,8 +63,8 @@ const home = {
   },
   subline: (
     <>
-      I'm Allan, a Business Systems Analyst who speaks both AI and business. 
-      <br /> <br />  Currently a Business Analytics Consultant @REAL Growth Consulting and building the future of in-person networking at 
+      I'm Allan, an AI & Analytics Consultant who speaks both AI and business.
+      <br /> <br />  Currently an AI & Analytics Consultant @REAL Growth Consulting and building the future of in-person networking at 
       <span style={{
         fontSize: '1.0em',
         color: 'var(--neutral-on-background-strong)',
@@ -99,7 +99,7 @@ const about = {
       <>
         Allan is a Chicago-based Computer Systems and Business Analytics professional with a passion for transforming complex business challenges
         into elegant & thoughtful digital solutions. <br /> <br />His work spans AI product design, digital analytics, and the convergence of technology and business strategy.
-        <br /> <br />With 3+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
+        <br /> <br />With 4+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
       </>
     ),
   },
@@ -110,7 +110,7 @@ const about = {
       {
         company: "REAL Growth Consulting",
         timeframe: "Sep 2025 - Present",
-        role: "Business Analytics Consultant",
+        role: "AI & Analytics Consultant",
         achievements: [
           <>
             Engineered a customer segmentation platform processing 4.8M CRM records. Insights informed £267M portfolio strategy and doubled profitability via personalized marketing activation.
@@ -211,7 +211,7 @@ const about = {
       {
         company: "RBC Borealis",
         timeframe: "Sep 2023 - Dec 2023",
-        role: "ML Systems Analyst",
+        role: "AI Consultant, Financial Data & Trust",
         achievements: [
           <>
             Architected HotSwapPII evaluation platform for PII detection models, benchmarking 6+ NLP models on 1,300 documents.
@@ -253,6 +253,20 @@ const about = {
         images: [],
       },
       {
+        company: "Revera Inc.",
+        timeframe: "May 2022 - Aug 2022",
+        role: "Digital Transformation Coordinator",
+        achievements: [
+          <>
+            Managed national Telecom Migrations project across Canada. Delivered $190K+ in annual cost savings.
+          </>,
+          <>
+            Built BI dashboard for migration tracking and performance monitoring across 100+ sites nationally.
+          </>,
+        ],
+        images: [],
+      },
+      {
         company: "Trillium Health Partners",
         timeframe: "Jan 2021 - Dec 2021",
         role: "Lead Health Systems Analyst",
@@ -277,7 +291,7 @@ const about = {
     institutions: [
       {
         name: "Schulich School of Business, York University",
-        description: <>Master of Management in Artificial Intelligence (MMAI) | GPA: 3.9/4.0 (Distinction) | 2x Hackathon Winner | May 2024 – Apr 2025</>,
+        description: <>Master of Management in Artificial Intelligence (MMAI) | GPA: 3.9/4.0 (Distinction) | 3x National Competition Winner | $25,000 Entrance Scholarship | May 2024 – Apr 2025</>,
       },
       {
         name: "School of Public Health Sciences, University of Waterloo",
