@@ -64,7 +64,7 @@ const home = {
   subline: (
     <>
       I'm Allan, a Business Systems Analyst who speaks both AI and business. 
-      <br /> <br />  Currently a Business Analytics Consultant @HS Advisory and building the future of in-person networking at 
+      <br /> <br />  Currently a Business Analytics Consultant @REAL Growth Consulting and building the future of in-person networking at 
       <span style={{
         fontSize: '1.0em',
         color: 'var(--neutral-on-background-strong)',
@@ -108,7 +108,7 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "HS Advisory Inc.",
+        company: "REAL Growth Consulting",
         timeframe: "Sep 2025 - Present",
         role: "Business Analytics Consultant",
         achievements: [
