@@ -278,7 +278,7 @@ const about = {
             Deployed automated data consolidation process using Excel VBA and SQL, standardizing data elements across systems. Reduced LMS registration lead time by 75%, saving 2,000+ FTE hours.
           </>,
           <>
-            Authored technical specifications bridging clinical workflows with Epic software reporting requirements and HL7/FHIR data standards.
+            Authored technical specifications bridging clinical workflows with Epic software reporting requirements and HL7/FHIR data standards. Partnered with 10+ clinical SMEs to define data integration standard for analytics rollout.
           </>,
         ],
         images: [],
@@ -338,7 +338,7 @@ const blog = {
 
 const work = {
   path: "/work",
-  label: "Work",
+  label: "Projects",
   title: `Projects – ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts

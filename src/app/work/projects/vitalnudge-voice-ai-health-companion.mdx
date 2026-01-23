@@ -1,0 +1,137 @@
+---
+title: "VitalNudge: Voice AI Health Companion"
+publishedAt: "2024-09-15"
+summary: "Built a production-ready voice AI health companion using RAG for personalized health guidance through phone calls. Achieved 3.4x performance improvement with Redis caching and HIPAA-compliant architecture."
+images: []
+link: ""
+source: "https://github.com/allangalli/VitalNudge"
+---
+
+# VitalNudge - Voice AI Health Companion
+
+## Overview
+
+VitalNudge is a voice-first AI health companion that enables users to track symptoms, recall past health conversations, and receive evidence-based guidance through natural phone calls. Built to address the fact that 40-80% of patients forget medical details post-visit, VitalNudge requires only a phone call and builds long-term memory across conversations.
+
+## The Problem
+
+Healthcare communication faces critical challenges:
+- **40-80% of patients** forget medical details after leaving their doctor's office
+- Chronic condition management requires consistent tracking over time
+- Many users prefer voice interaction over apps or typing
+- Existing solutions require app downloads, logins, or complex interfaces
+
+## Technical Architecture
+
+**Tech Stack:** Python, FastAPI, GPT-4, Whisper, ElevenLabs, Redis, LangFuse, Twilio, Railway
+
+### System Design
+
+The architecture follows a modular design:
+
+1. **Voice Layer**: Twilio handles incoming calls and voice infrastructure
+2. **API Layer**: FastAPI backend with voice endpoints
+3. **Service Layer**: Twilio Service, Whisper (transcription), LLM Service (GPT-4 + RAG)
+4. **Data Layer**: SQLite for persistence, Redis for semantic caching
+
+### RAG Implementation
+
+Built a sophisticated retrieval system for health context recall:
+
+- **Hybrid Search**: Combines BM25 keyword search with semantic embeddings for optimal retrieval
+- **Cross-Encoder Reranking**: Ensures most relevant context is prioritized
+- **Semantic Caching**: Redis-based caching delivers 3.4x performance improvement on repeated queries
+- **Hallucination Detection**: Built-in claim verification with automatic regeneration
+
+### Voice Pipeline
+
+The voice interaction flow handles natural conversation:
+
+1. User calls VitalNudge number via Twilio
+2. System recognizes returning users by phone number
+3. Whisper transcribes voice input to text
+4. RAG retrieves relevant health history context
+5. GPT-4 generates personalized, grounded response
+6. ElevenLabs converts response to natural speech (Polly fallback)
+7. Multi-turn conversation continues until farewell detection
+
+## Key Features
+
+### Health Memory System
+- Stores all conversations with user isolation
+- Retrieves relevant context for questions like "What pain did I mention last week?"
+- Maintains HIPAA-compliant data segregation
+
+### Intelligent Response Generation
+- Warm, empathetic responses (2-3 sentences max)
+- Grounds responses in user's past conversations
+- Cites sources when referencing past discussions
+- Emergency detection and 911 routing
+
+### Production Infrastructure
+- Deployed on Railway with full CI/CD pipeline
+- LangFuse observability for monitoring and tracing
+- Graceful degradation if RAG or cache fails
+- Automatic retry for transient failures
+
+## Performance Metrics
+
+- **P50 Response Latency**: Under 800ms (Target: Under 800ms)
+- **P95 Response Latency**: Under 1500ms (Target: Under 1500ms)
+- **Cache Hit Rate**: Over 40% (Target: Over 40%)
+- **AI Faithfulness Score**: 75%+ (Target: 70%+)
+- **System Uptime**: 99% (Target: 99%)
+
+### Redis Caching Impact
+
+- **3.4x speedup** on repeated queries
+- Semantic similarity matching for cache hits
+- Configurable TTL for freshness
+
+## Security & Compliance
+
+Implemented HIPAA-compliant architecture:
+
+- **User Isolation**: Data segregated by phone number
+- **Encrypted Transmission**: TLS/SSL for all communications
+- **PHI Redaction**: Sensitive information flagged and handled
+- **Audit Logging**: Full traceability via LangFuse
+- **No PII in Logs**: Production-safe logging practices
+
+## Development Approach
+
+### Testing Strategy
+- Comprehensive test suite with pytest
+- Integration tests for voice endpoints
+- RAG accuracy validation
+- Hallucination detection benchmarks
+
+### Observability
+- LangFuse tracing for all AI interactions
+- Performance monitoring dashboards
+- Error tracking and alerting
+- Cost tracking per conversation
+
+## Future Enhancements
+
+The foundation supports expansion to:
+- Outbound reminder calls for medication
+- Multi-language support (Spanish planned)
+- Health profile enrichment from conversations
+- Drug interaction checking
+- Mobile companion app
+
+## Technical Highlights
+
+- **Voice-First Design**: No app required, accessible via any phone
+- **Production-Ready**: Full CI/CD, observability, graceful degradation
+- **Performance Optimized**: 3.4x improvement with semantic caching
+- **Privacy-Focused**: HIPAA-compliant user isolation
+
+## Links
+
+- [GitHub Repository](https://github.com/allangalli/VitalNudge)
+
+---
+
+*This project demonstrates expertise in voice AI systems, RAG implementation, production deployment, and healthcare-compliant architecture design.*
