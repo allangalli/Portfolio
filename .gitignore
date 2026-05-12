@@ -4,6 +4,7 @@
 /.bmad-core
 /.claude
 /.cursor
+/docs
 
 # dependencies
 /node_modules
