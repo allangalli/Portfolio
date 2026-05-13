@@ -64,7 +64,14 @@ const home = {
   subline: (
     <>
       I'm Allan, an AI & Analytics Consultant who speaks both AI and business.
-      <br /> <br />  Currently leading frontline B2C analytics and intelligence for European retail giants @REAL Growth Consulting, with delivery across client offices in Toronto, London, and Paris.
+      <br /> <br />  Currently leading frontline B2C analytics and intelligence for European retail giants
+      <span style={{
+        fontSize: '1.0em',
+        color: 'var(--neutral-on-background-strong)',
+        textShadow: '0 0 1px var(--neutral-alpha-strong), 0 0 10px var(--neutral-alpha-weak)',
+        filter: 'drop-shadow(0 0 1px var(--neutral-alpha-medium))'
+      }}> @REAL Growth Consulting </span>
+      with delivery across client offices in Toronto, London, and Paris.
     </>
   ),
 };
