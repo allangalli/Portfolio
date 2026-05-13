@@ -1,0 +1,85 @@
+---
+title: "SixSafety: RAG-Powered Crime Prevention Safety Planner"
+publishedAt: "2024-12-15"
+summary: "Built a RAG-powered safety planning tool delivering personalized crime prevention advice for 2.9M Toronto residents. Featured on the City of Toronto Open Data Gallery and recognized by a former Toronto Police Analytics Lead."
+images: []
+link: ""
+source: ""
+---
+
+# SixSafety - RAG-Powered Crime Prevention Safety Planner
+
+## Overview
+
+SixSafety (originally WiseNeighbourhood) is a RAG-powered safety planning tool that turns the Toronto Police Major Crimes Index into personalized, actionable crime prevention guidance for any neighborhood in the city. Users complete a short adaptive survey and receive a tailored 4-section safety plan grounded in police data, citing the sources behind each recommendation.
+
+## The Problem
+
+Toronto residents face crime risks that vary dramatically by neighborhood, time of day, and crime type — but public safety advice is generic and one-size-fits-all:
+
+- 2.9M+ residents across 127+ neighborhoods, each with distinct risk profiles
+- Crime statistics exist as raw data, not personalized guidance
+- Generic safety advice fails to account for what crimes actually occur where the user lives
+- Existing public safety resources are passive and broadcast-style
+
+## Solution
+
+SixSafety combines police data with a RAG pipeline and a dynamic conversational survey to produce neighborhood-specific safety plans:
+
+1. **Adaptive Survey** — A dual-LLM agent pair conducts a short conversational intake. One agent generates clarifying questions; the other dynamically renders UI elements (radio buttons, multi-select, sliders) based on the answers so far.
+2. **Crime Context Retrieval** — The system pulls the relevant slice of the Toronto Police Major Crimes Index for the user's neighborhood and crime concerns.
+3. **RAG-Powered Plan Generation** — A two-stage chain retrieves grounding context from a vector database of police safety resources, then generates a structured 4-section safety plan with citations.
+
+## Technical Architecture
+
+**Tech Stack:** Python, Streamlit, LangChain, LangGraph, OpenAI GPT-4, Pinecone, Firecrawl, RAGAS, LangSmith
+
+**System Design:**
+
+- **Frontend Survey Layer** — Streamlit app with two coordinated LLM agents: a ConversationalAgent (few-shot prompted) and a UIAgent that emits Pydantic-validated UI definitions in real time
+- **RAG Backend** — Two-stage LangChain pipeline: Stage 1 analyzes the neighborhood + crime concerns and retrieves grounding context from Pinecone; Stage 2 generates the personalized safety plan
+- **Vector Database** — Pinecone-hosted embeddings of Toronto Police safety resources, crime prevention articles, and community programs, indexed with `text-embedding-3-large`
+- **Data Ingestion** — Firecrawl-based scraping of public safety sources, chunked and embedded into the corpus
+- **Evaluation** — Built-in RAGAS evaluation tracking Faithfulness, Answer Relevancy, Context Precision, and Context Recall, with LangSmith tracing for every LLM call
+
+## Key Features
+
+### Adaptive Conversational Intake
+- 3-exchange dynamic survey driven by two coordinated LLM agents
+- UI elements generated on the fly based on conversation state
+- No fixed form — the survey adapts to the user's crime concerns and context
+
+### Personalized 4-Section Safety Plan
+- Risk assessment specific to the user's neighborhood and crime concerns
+- Actionable recommendations citing the source documents behind each suggestion
+- Personal protocol — what to do in the moment when warning signs appear
+- Preventive measures — community resources, contacts, and longer-horizon actions
+
+### Multi-Crime Coverage
+- Addresses Assault, Auto Theft, Break & Enter, and Robbery — the four major crime categories in the Toronto Police Major Crimes Index
+- Recommendations adapt to whichever crime types the user is most concerned about
+
+## Impact
+
+- **Targets 2.9M Toronto residents** with personalized crime prevention guidance
+- **127+ neighborhoods** covered across 4 major crime categories
+- **Featured on the City of Toronto Open Data Gallery** as a showcase use of municipal open data
+- **Recognized by a former Toronto Police Analytics Lead** for the application of RAG to public-safety education
+
+## Engineering Highlights
+
+- **Hybrid agent design** — separating conversation logic from UI generation produces a cleaner state machine than a single mega-prompt
+- **Grounded generation** — every recommendation cites its source from the police-resource corpus, reducing hallucination and increasing trust
+- **RAGAS evaluation** — Faithfulness, Answer Relevancy, Context Precision, and Context Recall tracked on generated outputs as a quality regression suite
+- **Observability built-in** — LangSmith tracing across every LLM call for debugging and prompt iteration
+
+## What This Demonstrates
+
+- Applying RAG to a public-sector problem with measurable civic impact
+- Multi-agent orchestration with structured, validated outputs
+- Engineering rigor through retrieval evaluation and tracing
+- Translating raw open data into a personalized, usable service
+
+---
+
+*This project demonstrates expertise in RAG systems, multi-agent LLM orchestration, public-sector AI applications, and grounded generative AI design.*

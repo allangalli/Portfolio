@@ -64,14 +64,7 @@ const home = {
   subline: (
     <>
       I'm Allan, an AI & Analytics Consultant who speaks both AI and business.
-      <br /> <br />  Currently an AI & Analytics Consultant @REAL Growth Consulting and building the future of in-person networking at 
-      <span style={{
-        fontSize: '1.0em',
-        color: 'var(--neutral-on-background-strong)',
-        textShadow: '0 0 1px var(--neutral-alpha-strong), 0 0 10px var(--neutral-alpha-weak)',
-        filter: 'drop-shadow(0 0 1px var(--neutral-alpha-medium))'
-      }}> Collisio </span> 
-       while seeking my next AI or Business Analytics role.
+      <br /> <br />  Currently leading frontline B2C analytics and intelligence for European retail giants @REAL Growth Consulting, with delivery across client offices in Toronto, London, and Paris.
     </>
   ),
 };
@@ -97,9 +90,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Allan is a Chicago-based Computer Systems and Business Analytics professional with a passion for transforming complex business challenges
-        into elegant & thoughtful digital solutions. <br /> <br />His work spans AI product design, digital analytics, and the convergence of technology and business strategy.
-        <br /> <br />With 4+ years of experience across healthcare, finance, and technology sectors, Allan specializes in bridging technical and business teams to deliver impactful solutions.
+        Allan is a Toronto-based AI & Analytics Consultant and Schulich MMAI alumni with a passion for translating complex AI capabilities into clear business outcomes. A 3x national competition winner, his work spans AI/ML engineering, agentic systems, and analytics-led growth strategy.
+        <br /> <br />He has engineered ML systems and AI agents that informed £267M portfolio decisions, doubled client profitability, and drove 3x LTV growth — and led analytics and requirements for multi-million-dollar transformation projects with cross-functional teams of 5-25 stakeholders.
+        <br /> <br />With 4+ years of experience across healthcare, financial services, and luxury retail, Allan has delivered AI strategy recommendations to enterprise executives across client offices in Toronto, London, and Paris.
       </>
     ),
   },
@@ -110,37 +103,25 @@ const about = {
       {
         company: "REAL Growth Consulting",
         timeframe: "Sep 2025 - Present",
-        role: "AI & Analytics Consultant",
+        role: "AI & ML Engineer",
         achievements: [
           <>
-            Engineered a customer segmentation platform processing 4.8M CRM records. Insights informed £267M portfolio strategy and doubled profitability via personalized marketing activation.
+            Defined customer segmentation strategy processing 4.8M CRM records. Insights informed £267M portfolio repositioning and marketing activation for luxury retail client.
           </>,
           <>
-            Built master customer analytics pipeline for luxury jewelry client using Python and REST APIs with DMP enrichment via Experian Mosaic. Delivered audience segmentation dashboards identifying cross-sell pathways driving 3x LTV growth.
+            Designed KPI dashboards linking credit, marketing, and product data. Identified $250K+ EBIT improvement opportunities through customer tier graduation.
           </>,
           <>
-            Developed an AI prospecting tool using Gemini and Perplexity APIs with identity resolution and CRM enrichment. Aimed at reducing manual research time by 70% for sales activation.
+            Architected AI customer activation engine for 2.65M-customer luxury sportswear D2C portfolio. Scored 842K customers weekly into 25 segments powering €1M+ revenue per cycle.
+          </>,
+          <>
+            Built AI prospect research agent for luxury jewelry sales team. Cut high-net-worth client intelligence cycle from hours to seconds per lead across 8 platforms.
+          </>,
+          <>
+            Built AI prospecting tool turning a CEO's LinkedIn network into a vetted sales pipeline. Processes 2,000 prospects daily with on-demand enrichment, cutting research time ~90%.
           </>,
         ],
         images: [],
-      },
-      {
-        company: "York University",
-        timeframe: "Aug 2025 - Present",
-        role: "Technical Product Consultant",
-        achievements: [
-          <>
-            Bootstrapped a modern WordPress-based YouthAre platform with a focus on site analytics and UX, delivering 5+ critical features, optimizing page load times by 20%, and enhancing Google indexing.
-          </>,
-        ],
-        images: [
-          {
-            src: "/images/projects/youthare/youthare-site-hero-view.jpeg",
-            alt: "YouthAre Platform Landing Page View",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
         company: "Collisio",
@@ -170,21 +151,18 @@ const about = {
         ],
       },
       {
-        company: "Institute for Better Health, Trillium Health Partners",
+        company: "Trillium Health Partners",
         timeframe: "Jan 2024 - Jun 2025",
         role: "Senior Business Analyst",
         achievements: [
           <>
-            Drove product design and pilot launch of the HealthPod, targeting the 50% of Ontarians experiencing specialist backlogs; connected patients to live biometric-enabled virtual care through Canada’s first “doctor-in-a-box”
+            Led pilot launch of HealthPod, Canada's first "doctor-in-a-box". Defined technical build and AODA/PHIPA compliance roadmap targeting 60% non-urgent ER encounter diversion.
           </>,
           <>
-            Spearheaded market research, feature prioritization, and AODA/PHIPA compliance to support the launch and alleviate ER backlogs by rerouting up to 60% of non-urgent encounters to virtual care.
+            Owned requirements for eREMS, Ontario's first research management system. Drove discovery with 25+ SMEs, streamlining 30+ workflows and eliminating 4,000+ hours annually.
           </>,
           <>
-            Led requirements gathering and design mapping for eREMS, Ontario’s first enterprise research management system; managed 25+ SMEs/leaders to define 30+ workflows and break down process silos across teams.
-          </>,
-          <>
-            Managed evaluation and data migration strategy, including the execution of UAT sessions and 950+ functional/remediation tests (98% pass rate), as well as migration of 200k+ legacy records using Azure DevOps.
+            Managed data migration for 200k+ legacy records using Azure DevOps. Executed 950+ UAT tests achieving 98% pass rate with Agile practices.
           </>,
         ],
         images: [
@@ -211,16 +189,13 @@ const about = {
       {
         company: "Royal Bank of Canada",
         timeframe: "Sep 2023 - Dec 2023",
-        role: "AI Consultant, Financial Data & Trust",
+        role: "AI Engineer, Financial Data & Trust",
         achievements: [
           <>
-            Architected HotSwapPII evaluation platform for PII detection models, benchmarking 6+ NLP models on 1,300 documents.
+            Designed HotSwapPII platform benchmarking 6+ AI models on 1,300 financial documents. Evaluated PII detection accuracy for regulatory compliance requirements.
           </>,
           <>
-            Designed complete product lifecycle, achieving &gt;80% recall and reducing model evaluation cycles by ~30%.
-          </>,
-          <>
-            Built comprehensive testing framework using Microsoft Presidio, SpaCy, and Transformers.
+            Led 5-person team to define KPI framework and transformation roadmap. Reduced model evaluation cycles from 2-week sprints to 3-day cycles, saving 280+ hours per cycle.
           </>,
         ],
         images: [
@@ -241,13 +216,13 @@ const about = {
       {
         company: "Royal Bank of Canada",
         timeframe: "Jan 2023 - Aug 2023",
-        role: "Business Systems Analyst, I&T Finance",
+        role: "Data Analyst, I&T Finance",
         achievements: [
           <>
-            Secured leadership buy-in, facilitated user interviews, and defined requirements to build an internal process literacy platform and change management strategy; achieved a 75% adoption rate and recognition by RBCs CFO.
+            Built internal process literacy platform after securing leadership buy-in. Achieved 75% adoption and CFO recognition, reducing knowledge search time across 90-person department.
           </>,
           <>
-            Streamlined data ETL pipelines using Python, SQL, and VBA Macros to cut BI developers’ monthly reporting timelines by 80%, strengthening time-sensitive decisions.
+            Streamlined data ETL pipelines using Python, SQL, and VBA macros. Reduced monthly reporting timelines by 80% for executive decision-making.
           </>,
         ],
         images: [],
@@ -255,13 +230,13 @@ const about = {
       {
         company: "Revera Inc.",
         timeframe: "May 2022 - Aug 2022",
-        role: "Digital Transformation Coordinator",
+        role: "Technology Transformation Analyst, IT Infrastructure",
         achievements: [
           <>
-            Managed national Telecom Migrations project across Canada. Delivered $190K+ in annual cost savings.
+            Managed national Telecom Migrations project across Canada, liaising with vendors and maintaining project backlog. Delivered $190K+ in annual cost savings.
           </>,
           <>
-            Built BI dashboard for migration tracking and performance monitoring across 100+ sites nationally.
+            Built BI dashboard for migration tracking and performance monitoring. Enabled control initiatives and visibility across 100+ sites nationally.
           </>,
         ],
         images: [],
@@ -291,11 +266,11 @@ const about = {
     institutions: [
       {
         name: "Schulich School of Business, York University",
-        description: <>Master of Management in Artificial Intelligence (MMAI) | GPA: 3.9/4.0 (Distinction) | 3x National Competition Winner | $25,000 Entrance Scholarship | May 2024 – Apr 2025</>,
+        description: <>Master of Management in Artificial Intelligence (MMAI) | CGPA: 3.9/4.0 (Distinction) | $25,000 Entrance Scholarship | 3x National Competition Winner — 1st place Women in AI Hackathon (Nov 2024), 2nd place UCalgary Digital Innovation Challenge (Mar 2025), Schulich Startups Pitch Winner | May 2024 – Apr 2025</>,
       },
       {
-        name: "School of Public Health Sciences, University of Waterloo",
-        description: <>Bachelor of Science, Health Studies (Co-op) | Health Informatics | Co-op Student of Year Nominee | Dean's Honour List | Sep 2018 – Apr 2023</>,
+        name: "University of Waterloo",
+        description: <>Bachelor of Science, Honours Health Informatics, Data Science<br />Honours Health Studies (Co-op) with a Minor in Computer Science<br />Co-op Student of the Year Nominee | Dean's Honour List x2 | Sep 2018 – Apr 2023</>,
       },
     ],
   },
@@ -304,23 +279,23 @@ const about = {
     title: "Technical Skills",
     skills: [
       {
-        title: "AI/ML Development",
-        description: <>Building AI-powered solutions using Python, SpaCy, Transformers, Microsoft Presidio, OpenAI API, and LangChain for NLP and generative AI applications.</>,
+        title: "AI/ML & Agentic Systems",
+        description: <>Building AI-powered solutions using Python, OpenAI API, LangChain/LangGraph, Pinecone, Microsoft Presidio, SpaCy, and Transformers. Experienced with large language models, agentic frameworks, Model Context Protocol (MCP), Claude Code, and Microsoft Azure AI Foundry.</>,
         images: [],
       },
       {
         title: "Business Analysis & Project Management",
-        description: <>Expert in requirements gathering, stakeholder management, and Agile methodologies. Certified PSM and experienced with JIRA, Azure DevOps, and process optimization.</>,
+        description: <>Expert in requirements gathering, stakeholder management, and Lean Agile methodologies. PSM-certified and experienced with JIRA, Azure DevOps, Qualtrics, strategy planning, and process optimization.</>,
         images: [],
       },
       {
         title: "Data Analytics & Cloud",
-        description: <>Proficient in Python, SQL, Power BI, Tableau, and cloud platforms (GCP AI Leader certified, Azure AI Fundamentals certified).</>,
+        description: <>Proficient in Python, SQL, Power BI, Tableau, Microsoft Power Query, Power Pivot, and Excel VBA. Cloud platforms: GCP AI Leader certified, Azure AI Fundamentals certified.</>,
         images: [],
       },
       {
         title: "Healthcare & Financial Systems",
-        description: <>Domain expertise in healthcare systems (EPIC EMR, PHIPA compliance) and financial services (General Ledger, EPM/ERP systems, IBM Cognos TM1).</>,
+        description: <>Domain expertise in healthcare systems (EPIC EMR, AODA/PHIPA compliance, HL7/FHIR) and financial services (General Ledger, EPM/ERP systems, IBM Cognos TM1).</>,
         images: [],
       },
     ],
