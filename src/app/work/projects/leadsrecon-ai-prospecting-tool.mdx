@@ -15,7 +15,7 @@ LeadsRecon is an end-to-end prospecting tool that captures a CEO's 1st-degree Li
 
 ## The Problem
 
-Sales leaders sitting on years of relationship capital — built up across hundreds or thousands of LinkedIn connections — face the same operational gap:
+Sales leaders sitting on years of relationship capital, built up across hundreds or thousands of LinkedIn connections, face the same operational gap:
 
 - Identifying who is worth a conversation requires hours of manual research per prospect
 - LinkedIn export options are limited and stripped of context
@@ -27,9 +27,9 @@ The result: high-trust networks remain idle while sales teams cold-prospect from
 
 LeadsRecon automates the capture-and-enrichment workflow end-to-end:
 
-1. **Capture** — A Chrome extension reads filtered connection lists from LinkedIn and stores them locally and in the cloud
-2. **Enrich** — On-demand enrichment workflows hydrate each contact with career history, current company, location, and wealth signals via pluggable providers
-3. **Vet & Export** — A side-panel UI lets the user filter, sort, and triage contacts before exporting a CSV-ready pipeline
+1. **Capture**: A Chrome extension reads filtered connection lists from LinkedIn and stores them locally and in the cloud
+2. **Enrich**: On-demand enrichment workflows hydrate each contact with career history, current company, location, and wealth signals via pluggable providers
+3. **Vet & Export**: A side-panel UI lets the user filter, sort, and triage contacts before exporting a CSV-ready pipeline
 
 ## Technical Architecture
 
@@ -37,10 +37,10 @@ LeadsRecon automates the capture-and-enrichment workflow end-to-end:
 
 **System Design:**
 
-- **Chrome Extension** — MV3 extension with a long-running content script for LinkedIn capture and a Chakra-based side panel for triage. Local-first persistence in IndexedDB; cloud sync via authenticated API calls.
-- **Web Backend** — Next.js App Router app on Vercel backed by Neon Postgres. Drizzle ORM with versioned migrations; Zod for request validation; cookie-based session auth.
-- **Enrichment Layer** — Provider-agnostic enrichment endpoints with cost confirmation and daily quota enforcement. Cross-user contact pooling means an enriched profile is instantly available the next time anyone captures it.
-- **Workflow Orchestration** — Long-running enrichment jobs are orchestrated as workflows with status polling from the side panel, so the UI stays responsive while batches process in the background.
+- **Chrome Extension**: MV3 extension with a long-running content script for LinkedIn capture and a Chakra-based side panel for triage. Local-first persistence in IndexedDB; cloud sync via authenticated API calls.
+- **Web Backend**: Next.js App Router app on Vercel backed by Neon Postgres. Drizzle ORM with versioned migrations; Zod for request validation; cookie-based session auth.
+- **Enrichment Layer**: Provider-agnostic enrichment endpoints with cost confirmation and daily quota enforcement. Cross-user contact pooling means an enriched profile is instantly available the next time anyone captures it.
+- **Workflow Orchestration**: Long-running enrichment jobs are orchestrated as workflows with status polling from the side panel, so the UI stays responsive while batches process in the background.
 
 ## Key Features
 
@@ -54,7 +54,7 @@ LeadsRecon automates the capture-and-enrichment workflow end-to-end:
 - Light enrichment (name, headline, current company, location)
 - Deep enrichment (full work history, education, skills, certifications)
 - Profile-level caching so enrichments survive contact-deletes and re-captures
-- Cross-user pooling — same profile, shared enriched data instantly
+- Cross-user pooling: same profile, shared enriched data instantly
 - Atomic-claim protection to prevent duplicate work on the same contact
 
 ### Triage & Export
@@ -75,12 +75,12 @@ LeadsRecon automates the capture-and-enrichment workflow end-to-end:
 - **318 tests** across the extension and backend (Vitest), with golden-path integration coverage
 - **13 database migrations** managed through Drizzle, including rate-limit storage moved from in-memory to database-backed
 - **Strict TypeScript** end-to-end, with shared types across the extension and Next.js backend
-- **CI-tested anti-detection rules** — long-running pagination in the content script (not the service worker), no extension URLs injected into LinkedIn DOM, daily caps, normal-distributed delays
+- **CI-tested anti-detection rules**: long-running pagination in the content script (not the service worker), no extension URLs injected into LinkedIn DOM, daily caps, normal-distributed delays
 - **Cookie-based session auth** with manual approval gating for new sign-ups during the controlled rollout
 
 ## What This Demonstrates
 
-- End-to-end product ownership — design, build, ship — across browser, backend, and database
+- End-to-end product ownership (design, build, ship) across browser, backend, and database
 - Practical applied AI in a real sales workflow rather than a demo
 - Production discipline: versioned migrations, test coverage, anti-detection rules, cost controls
 - Translating an executive's relationship capital into operational pipeline output

@@ -91,7 +91,7 @@ const about = {
     description: (
       <>
         Allan is a Toronto-based AI & Analytics Consultant and Schulich MMAI alumni with a passion for translating complex AI capabilities into clear business outcomes. A 3x national competition winner, his work spans AI/ML engineering, agentic systems, and analytics-led growth strategy.
-        <br /> <br />He has engineered ML systems and AI agents that informed £267M portfolio decisions, doubled client profitability, and drove 3x LTV growth — and led analytics and requirements for multi-million-dollar transformation projects with cross-functional teams of 5-25 stakeholders.
+        <br /> <br />He has engineered ML systems and AI agents that informed £267M portfolio decisions, doubled client profitability, and drove 3x LTV growth, and led analytics and requirements for multi-million-dollar transformation projects with cross-functional teams of 5-25 stakeholders.
         <br /> <br />With 4+ years of experience across healthcare, financial services, and luxury retail, Allan has delivered AI strategy recommendations to enterprise executives across client offices in Toronto, London, and Paris.
       </>
     ),
@@ -266,7 +266,7 @@ const about = {
     institutions: [
       {
         name: "Schulich School of Business, York University",
-        description: <>Master of Management in Artificial Intelligence (MMAI) | CGPA: 3.9/4.0 (Distinction) | $25,000 Entrance Scholarship | 3x National Competition Winner — 1st place Women in AI Hackathon (Nov 2024), 2nd place UCalgary Digital Innovation Challenge (Mar 2025), Schulich Startups Pitch Winner | May 2024 – Apr 2025</>,
+        description: <>Master of Management in Artificial Intelligence (MMAI) | CGPA: 3.9/4.0 (Distinction) | $25,000 Entrance Scholarship | 3x National Competition Winner: 1st place Women in AI Hackathon (Nov 2024), 2nd place UCalgary Digital Innovation Challenge (Mar 2025), Schulich Startups Pitch Winner | May 2024 – Apr 2025</>,
       },
       {
         name: "University of Waterloo",
