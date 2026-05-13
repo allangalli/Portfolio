@@ -68,8 +68,8 @@ const home = {
       <span style={{
         fontSize: '1.0em',
         color: 'var(--neutral-on-background-strong)',
-        textShadow: '0 0 1px var(--neutral-alpha-strong), 0 0 10px var(--neutral-alpha-weak)',
-        filter: 'drop-shadow(0 0 1px var(--neutral-alpha-medium))'
+        textShadow: '0 0 2px var(--neutral-alpha-strong), 0 0 20px var(--neutral-alpha-medium)',
+        filter: 'drop-shadow(0 0 3px var(--neutral-alpha-strong))'
       }}> @REAL Growth Consulting </span>
       with delivery across client offices in Toronto, London, and Paris.
     </>
