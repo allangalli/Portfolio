@@ -97,8 +97,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Allan is a Toronto-based AI & Analytics Consultant and Schulich MMAI alumni with a knack for transforming complex business challenges into elegant & thoughtful digital solutions.
-        <br /> <br />A 3x national competition winner, his work spans AI/ML engineering, agentic systems, and analytics-led growth strategy.
+        Allan is a Toronto-based AI & Analytics Consultant with a knack for transforming complex business challenges into elegant & thoughtful digital solutions.
+        <br /> <br />A 3x national competition winner, Schulich School of Business and University of Waterloo alumni, his work spans AI/ML engineering, agentic systems, and analytics-led growth strategy.
         <br /> <br />With 4+ years of technical leadership experience across healthcare, financial services, and luxury retail, Allan bridges technical and business teams to deliver AI strategy for enterprise executives across client offices in Toronto, London, and Paris.
       </>
     ),
